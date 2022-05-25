@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-house {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.house-img {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.div-house h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #272727;
+    margin-top: 40px;
+
+}
+
+.list img {
+    width: 32px;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+    display: none;
+}
+    
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-top: 40px;
+
+}
+
+nav a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #272727;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #272727;
+}
+
+.div-nav button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    margin-right: 30px;
+    margin-top: 40px;
+    height: 25px;
+}
